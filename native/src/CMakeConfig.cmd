@@ -39,7 +39,7 @@ echo Found CMake at %CMAKEPATH%
 rem Identify Visual Studio version and set CMake generator accordingly.
 set CMAKEGEN=""
 if "%VSVERSION%"=="17.0" (
-	set CMAKEGEN="Visual Studio 15 2017"
+	set CMAKEGEN="Visual Studio 17 2022"
 ) else if "%VSVERSION%"=="16.0" (
 	set CMAKEGEN="Visual Studio 16 2019"
 ) else (
